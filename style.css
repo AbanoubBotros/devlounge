@@ -1,0 +1,290 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+*{
+    font-family: 'poppins' , 'sans-sreif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+        color: #3a6ef4;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.8em;
+}
+.navigation a{
+    color: #3a6ef4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color:#2f0056;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+    align-items: center;
+    background-image: url(images/WhatsApp\ Image\ 2024-07-26\ at\ 17.10.44_16caebf6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}    
+.main h2{
+    color: #fff
+    font-color white;
+    font-weight:500;
+
+}
+.main h2 span{
+    color: #6088ec;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color: #060606;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color:#ffffff
+    background-color #062571;
+    text-decoration: none;
+    font-size:1.1em;
+    display:inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: #2f0056;
+    transform:scale(1.1);
+}
+.social-icons{
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #3a6ef4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.pragra{
+    margin-left: 380px;
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.projects{
+    background-color: gray;
+}
+.p{
+    margin-left: 100px;
+}
+.m{
+    background-color: rgb(255, 255, 255);
+    color: #672e9f;
+}
+.ma{
+    color: #5ebc7c;
+    background-color: gray;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0px 5px rgpa(1,1,1/15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #3a6ef4;
+    font-size: 1.5em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #3a6ef4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.rating {
+    direction: rtl;
+    display: inline-flex;
+    font-size: 2rem;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating input:checked~label {
+    color: gold;
+}
+.foot{
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footitle{
+    font-size: 1.3em;
+    font-weight: 600;
+}
